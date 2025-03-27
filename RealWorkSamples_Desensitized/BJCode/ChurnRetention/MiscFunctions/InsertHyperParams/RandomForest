@@ -1,0 +1,53 @@
+## Packages in Environment Needed
+import pandas as pd
+import numpy as np
+import snowflake.connector as sconn
+from sqlalchemy import create_engine
+from snowflake.connector.pandas_tools import pd_writer
+from sqlalchemy.dialects import registry
+
+# Import Code & Helper Modules
+import sys
+sys.path.append(r"C:\\Users\\david.li\\Desktop\\WorkCode\\data-science-dump")
+
+# Bring in Code Constants to Use
+import MLConstants as mlc
+
+def insertRandomForestParams(version_num, n_estimators_param, criterion_param, max_depth_param, min_samples_split_param, min_samples_leaf_param, 
+                             min_weight_fraction_leaf_param, max_features_param, max_leaf_nodes_param, min_impurity_decrease_param,
+                             bootstrap_param, oob_score_param, n_jobs_param, random_state_param, verbose_param, warm_start_param,
+                             class_weight_param, ccp_alpha_param, max_samples_param):
+    param_names = ["version_num", "n_estimators", "criterion", "max_depth", "min_samples_split", "min_samples_leaf", 
+                             "min_weight_fraction_leaf", "max_features", "max_leaf_nodes", "min_impurity_decrease",
+                             "bootstrap", "oob_score", "n_jobs", "random_state", "verbose", "warm_start",
+                             "class_weight", "ccp_alpha", "max_samples"]
+    param_data = [version_num, n_estimators_param, criterion_param, max_depth_param, min_samples_split_param, min_samples_leaf_param, 
+                             min_weight_fraction_leaf_param, max_features_param, max_leaf_nodes_param, min_impurity_decrease_param,
+                             bootstrap_param, oob_score_param, n_jobs_param, random_state_param, verbose_param, warm_start_param,
+                             class_weight_param, ccp_alpha_param, max_samples_param]
+    param_df = pd.DataFrame(columns = param_names)
+    param_df.columns = map(lambda x: str(x).upper(), param_df.columns)
+    param_df.loc[len(param_df)] = param_data
+
+    #Create connection to Snowflake using your account and user
+    account_identifier = 'DESENSITIZED'
+    user = 'DESENSITIZED'
+    password = 'DESENSITIZED'
+    database_name = mlc.DATASCI_DB
+    schema_name = mlc.MODEL_PARAMS_SCHEMA
+
+    conn_string = f"snowflake://{user}:{password}@{account_identifier}/{database_name}/{schema_name}"
+    registry.register('snowflake', 'snowflake.sqlalchemy', 'dialect')
+    engine = create_engine(conn_string)
+
+    with engine.connect() as conn:
+        param_df.to_sql(name = mlc.RF_PARAM_TBL, con=engine, schema = mlc.MODEL_PARAMS_SCHEMA, if_exists="append", method = pd_writer, index = False)
+
+    return param_df
+
+execute = insertRandomForestParams(version_num = "v0", n_estimators_param = 100, criterion_param = "gini", max_depth_param = None, 
+                                   min_samples_split_param = 2, min_samples_leaf_param = 1, 
+                                   min_weight_fraction_leaf_param = 0.0, max_features_param = "sqrt", max_leaf_nodes_param = None, 
+                                   min_impurity_decrease_param = 0.0, bootstrap_param = True, oob_score_param = False, n_jobs_param = None, 
+                                   random_state_param = None, verbose_param = 0, warm_start_param = False, class_weight_param = None, 
+                                   ccp_alpha_param = 0.0, max_samples_param = None)
