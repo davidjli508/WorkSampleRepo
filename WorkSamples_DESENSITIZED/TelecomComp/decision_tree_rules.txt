@@ -1,0 +1,2392 @@
+|--- ACTIVATING_SALE_GROUP_NAME_grouped_National Retail <= 0.19
+|   |--- L1_CLUST_3 <= 0.46
+|   |   |--- L1_CLUST_5 <= 0.22
+|   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.81
+|   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.34
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.14
+|   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.31
+|   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NonPortin <= 0.93
+|   |   |   |   |   |   |   |   |--- L1_CLUST_6 <= 0.74
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.25
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_4 <= 0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_4 >  0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.25
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |--- L1_CLUST_6 >  0.74
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.92
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.92
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NonPortin >  0.93
+|   |   |   |   |   |   |   |   |--- L1_CLUST_6 <= 0.89
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_2 <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_4 <= 0.93
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_4 >  0.93
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_2 >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |--- L1_CLUST_6 >  0.89
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.70
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.70
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.31
+|   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.14
+|   |   |   |   |   |   |   |   |--- L1_CLUST_0 <= 0.05
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.75
+|   |   |   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues >  0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.75
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.62
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.62
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- L1_CLUST_0 >  0.05
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.26
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.26
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.14
+|   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues <= 0.06
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_6 <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_6 >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_6 <= 0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_6 >  0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues >  0.06
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.47
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.47
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.14
+|   |   |   |   |   |   |--- L1_CLUST_4 <= 0.60
+|   |   |   |   |   |   |   |--- L1_CLUST_6 <= 0.83
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.64
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.40
+|   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.40
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.33
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.33
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.64
+|   |   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NonPortin <= 0.24
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NonPortin >  0.24
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 <= 0.66
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 >  0.66
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |--- L1_CLUST_6 >  0.83
+|   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues <= 0.82
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.49
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.49
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.71
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.71
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues >  0.82
+|   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.78
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.78
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |--- L1_CLUST_4 >  0.60
+|   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues <= 0.17
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.53
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.65
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.16
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.65
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.53
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.62
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues >  0.17
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.82
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.82
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |--- PROMO_GROUPED_Deflation >  0.34
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.26
+|   |   |   |   |   |   |--- L1_CLUST_0 <= 0.39
+|   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues <= 0.54
+|   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.79
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_4 <= 0.67
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.46
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.46
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_4 >  0.67
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.74
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.74
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.79
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_4 <= 0.92
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_4 >  0.92
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues >  0.54
+|   |   |   |   |   |   |   |   |--- L1_CLUST_4 <= 0.43
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.66
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.66
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |--- L1_CLUST_4 >  0.43
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.58
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.79
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.79
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.58
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.17
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.17
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |--- L1_CLUST_0 >  0.39
+|   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.12
+|   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues <= 0.10
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.49
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.52
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.52
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.49
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues >  0.10
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.69
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.69
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.12
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.87
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.38
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.38
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.87
+|   |   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues <= 0.85
+|   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues >  0.85
+|   |   |   |   |   |   |   |   |   |   |--- class: 8
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.26
+|   |   |   |   |   |   |--- L1_CLUST_4 <= 0.30
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.11
+|   |   |   |   |   |   |   |   |--- L1_CLUST_6 <= 0.79
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_2 <= 0.46
+|   |   |   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues <= 0.82
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues >  0.82
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_2 >  0.46
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- L1_CLUST_6 >  0.79
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.64
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.74
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.74
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.64
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.11
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.48
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.45
+|   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.45
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.51
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.51
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.48
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.28
+|   |   |   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues <= 0.89
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues >  0.89
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.28
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |--- L1_CLUST_4 >  0.30
+|   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.79
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.35
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.34
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.34
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.35
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.37
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.57
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.57
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.37
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.79
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.89
+|   |   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues <= 0.44
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues >  0.44
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.89
+|   |   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |--- PORTIN_ISSUE_DESC_NoIssues >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.81
+|   |   |   |   |--- PORTIN_ISSUE_DESC_NonPortin <= 0.61
+|   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.39
+|   |   |   |   |   |   |--- L1_CLUST_4 <= 0.13
+|   |   |   |   |   |   |   |--- L1_CLUST_2 <= 0.46
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.60
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_6 <= 0.54
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_6 >  0.54
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.60
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.53
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 <= 0.69
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 >  0.69
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.53
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.64
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.64
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- L1_CLUST_2 >  0.46
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.84
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.84
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.43
+|   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.43
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- L1_CLUST_4 >  0.13
+|   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.93
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 1.00
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.86
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.86
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  1.00
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.40
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.40
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.93
+|   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.46
+|   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.68
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.68
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.46
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.77
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.77
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.39
+|   |   |   |   |   |   |--- contacted_care_last30d <= 0.47
+|   |   |   |   |   |   |   |--- L1_CLUST_0 <= 0.62
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.80
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.55
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.46
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.46
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.80
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.44
+|   |   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.44
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_4 <= 0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_4 >  0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- L1_CLUST_0 >  0.62
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.79
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 8
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.79
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.71
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 8
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.71
+|   |   |   |   |   |   |   |   |   |   |--- class: 8
+|   |   |   |   |   |   |--- contacted_care_last30d >  0.47
+|   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.09
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.23
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 <= 0.24
+|   |   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 >  0.24
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.23
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.51
+|   |   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.51
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.09
+|   |   |   |   |   |   |   |   |--- L1_CLUST_6 <= 0.48
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- L1_CLUST_6 >  0.48
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.32
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.32
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.57
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.57
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- PORTIN_ISSUE_DESC_NonPortin >  0.61
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.73
+|   |   |   |   |   |   |--- L1_CLUST_6 <= 0.90
+|   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.22
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.88
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.92
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 <= 0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 >  0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.92
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.88
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.63
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.63
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 <= 0.69
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 >  0.69
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.22
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.22
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_4 <= 0.25
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.57
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.57
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_4 >  0.25
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.49
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.49
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.22
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.60
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.17
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.17
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.60
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- L1_CLUST_6 >  0.90
+|   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.02
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.67
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.69
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.84
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.84
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.69
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.67
+|   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.02
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.47
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.47
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.90
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.73
+|   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.25
+|   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.73
+|   |   |   |   |   |   |   |   |--- L1_CLUST_0 <= 0.82
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.13
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.13
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- L1_CLUST_0 >  0.82
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.62
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.62
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.73
+|   |   |   |   |   |   |   |   |--- L1_CLUST_0 <= 0.57
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.78
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.78
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- L1_CLUST_0 >  0.57
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.73
+|   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.73
+|   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.25
+|   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.06
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.15
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 <= 0.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 >  0.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.15
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.31
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.31
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.06
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.98
+|   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.98
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_6 <= 0.71
+|   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_6 >  0.71
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |--- L1_CLUST_5 >  0.22
+|   |   |   |--- PORTIN_ISSUE_DESC_NonPortin <= 0.76
+|   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.49
+|   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.42
+|   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.09
+|   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.09
+|   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.84
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.71
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.81
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.81
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.71
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.84
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.09
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.98
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.26
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.26
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.98
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.71
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.71
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.09
+|   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.33
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.03
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.90
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.90
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.03
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.33
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.10
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.96
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.96
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.10
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.42
+|   |   |   |   |   |   |--- contacted_care_last30d <= 0.87
+|   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.93
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.65
+|   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.65
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.93
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- contacted_care_last30d >  0.87
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.49
+|   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.30
+|   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.15
+|   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.92
+|   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.47
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.44
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.44
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.47
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.86
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.86
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.62
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.62
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.92
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.02
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.33
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.33
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.02
+|   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.36
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.36
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.89
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.89
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.15
+|   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.75
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.46
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.32
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.32
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.46
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.40
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.40
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.17
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.17
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.75
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.31
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.30
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.30
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.51
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.51
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.31
+|   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.58
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.58
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.30
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- PORTIN_ISSUE_DESC_NonPortin >  0.76
+|   |   |   |   |--- LTE_BAND_71 <= 0.97
+|   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.52
+|   |   |   |   |   |   |--- contacted_care_last30d <= 0.18
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.89
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.30
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.69
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.69
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.30
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.72
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.72
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.89
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.84
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.47
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.63
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.63
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.47
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.42
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.42
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.84
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.56
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.56
+|   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |--- contacted_care_last30d >  0.18
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.51
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.38
+|   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.38
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.56
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.56
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.42
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.42
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.51
+|   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.30
+|   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.30
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.52
+|   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 1.00
+|   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.40
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.30
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.31
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.85
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.85
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.31
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.30
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.85
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.92
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.85
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |--- contacted_care_last30d >  0.40
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.23
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.85
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.46
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.46
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.85
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.23
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.54
+|   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.54
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.34
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.34
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  1.00
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.62
+|   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.22
+|   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.22
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.98
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.98
+|   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.62
+|   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 1.00
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.86
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.61
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.61
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.86
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.57
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.57
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |--- LTE_BAND_71 >  0.97
+|   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.95
+|   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.71
+|   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.32
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.92
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.82
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.82
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.71
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.71
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.92
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.42
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.42
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.49
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.49
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.32
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.27
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.75
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.72
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.72
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.75
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.77
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.77
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.27
+|   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.56
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.56
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.84
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.84
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.71
+|   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.79
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.33
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.33
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.67
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.67
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.79
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.33
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.69
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.69
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.33
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.77
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.77
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.95
+|   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.52
+|   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.50
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.81
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.23
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.23
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.71
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.71
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.81
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.84
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.84
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.50
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.35
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.55
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.35
+|   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.52
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 1.00
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.42
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.46
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.46
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.67
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.67
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.42
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.74
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.74
+|   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  1.00
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.88
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.55
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.55
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.88
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.31
+|   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.31
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |--- L1_CLUST_3 >  0.46
+|   |   |--- PORTIN_ISSUE_DESC_NonPortin <= 0.82
+|   |   |   |--- contacted_care_last30d <= 0.75
+|   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.22
+|   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.75
+|   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.62
+|   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.12
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.72
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.56
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.56
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.72
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.47
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.47
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.86
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.86
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.12
+|   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.62
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.32
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.45
+|   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.45
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.80
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.80
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.32
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.42
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.54
+|   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.54
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.42
+|   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.75
+|   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.08
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.59
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.98
+|   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.98
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.90
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.90
+|   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.59
+|   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.08
+|   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |--- PROMO_GROUPED_No Promo >  0.22
+|   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.79
+|   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.39
+|   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.87
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.10
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.69
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.69
+|   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.10
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.93
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.93
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.87
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.39
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.20
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.20
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.39
+|   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.39
+|   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.68
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.70
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.44
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.44
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.70
+|   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.68
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.24
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.39
+|   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.39
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.24
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.79
+|   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.66
+|   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.29
+|   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.20
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.34
+|   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.34
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.20
+|   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.29
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.39
+|   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.39
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.61
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.61
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.66
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.27
+|   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.27
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.29
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.52
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.52
+|   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.29
+|   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |--- contacted_care_last30d >  0.75
+|   |   |   |   |--- SUB_ESIM_FLAG <= 0.19
+|   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.36
+|   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.69
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.70
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.85
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.85
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.85
+|   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.85
+|   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.70
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.52
+|   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.52
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.69
+|   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.36
+|   |   |   |   |   |   |--- class: 4
+|   |   |   |   |--- SUB_ESIM_FLAG >  0.19
+|   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.03
+|   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.03
+|   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.73
+|   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.73
+|   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.72
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.31
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.13
+|   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.13
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.31
+|   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.72
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.32
+|   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.32
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.56
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.56
+|   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |--- PORTIN_ISSUE_DESC_NonPortin >  0.82
+|   |   |   |--- PROMO_GROUPED_No Promo <= 0.20
+|   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.08
+|   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.52
+|   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.21
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.40
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.74
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.21
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.67
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.67
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.21
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.74
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.39
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.56
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.56
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.39
+|   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.40
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.60
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.60
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.11
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.57
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.57
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.11
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.93
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.93
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.21
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.66
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.22
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.57
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.57
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.22
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.52
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.52
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.66
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.87
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.73
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.60
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.73
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.87
+|   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.52
+|   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.67
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.83
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.02
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.13
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.13
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.63
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.63
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.02
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.48
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.48
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.30
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.83
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.28
+|   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.28
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.20
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.63
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.63
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.20
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.67
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.42
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.72
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.36
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.79
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.79
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.36
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.72
+|   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.42
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.81
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.21
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.21
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.12
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.81
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.69
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.72
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.72
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.69
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.08
+|   |   |   |   |   |--- contacted_care_last30d <= 0.43
+|   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.49
+|   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.24
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.11
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.35
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.31
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.35
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.11
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.55
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.41
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.24
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.48
+|   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.48
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.61
+|   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.61
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.49
+|   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.27
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.22
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.22
+|   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.27
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.84
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.55
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.55
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.84
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.28
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |--- contacted_care_last30d >  0.43
+|   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.79
+|   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.95
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.51
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.39
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.39
+|   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.51
+|   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.95
+|   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.79
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.26
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.50
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.52
+|   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.52
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.50
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.47
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.26
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.60
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.58
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.58
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.60
+|   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |--- PROMO_GROUPED_No Promo >  0.20
+|   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.47
+|   |   |   |   |   |--- contacted_care_last30d <= 0.23
+|   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.46
+|   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.96
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.86
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.60
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.60
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.86
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.96
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.26
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.79
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.79
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.26
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.77
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.77
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.46
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.99
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.47
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.47
+|   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.13
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.13
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.61
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.61
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.99
+|   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |--- contacted_care_last30d >  0.23
+|   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.42
+|   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.36
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.92
+|   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.37
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.37
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.92
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.98
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.78
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.78
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.98
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.36
+|   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.42
+|   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.47
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.10
+|   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.29
+|   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.02
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.62
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.81
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.40
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.81
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.62
+|   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.02
+|   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.29
+|   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.10
+|   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.65
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.65
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.72
+|   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm <= 0.62
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.52
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.52
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- ACTIVATING_SALE_GROUP_NAME_grouped_Direct EComm >  0.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.72
+|   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.65
+|   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.65
+|   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.25
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.06
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.72
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.72
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.06
+|   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.25
+|   |   |   |   |   |   |   |   |--- class: 10
+|--- ACTIVATING_SALE_GROUP_NAME_grouped_National Retail >  0.19
+|   |--- PORTIN_ISSUE_DESC_NonPortin <= 0.49
+|   |   |--- L1_CLUST_6 <= 0.86
+|   |   |   |--- L1_CLUST_5 <= 0.59
+|   |   |   |   |--- EXPECTED_CLV_PS <= 0.68
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.27
+|   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.59
+|   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.31
+|   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.31
+|   |   |   |   |   |   |   |   |--- L1_CLUST_4 <= 0.83
+|   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |--- L1_CLUST_4 >  0.83
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.70
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.53
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.70
+|   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.59
+|   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.72
+|   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.72
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.79
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_3 <= 0.59
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.51
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.51
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_3 >  0.59
+|   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.79
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.40
+|   |   |   |   |   |   |   |   |   |   |--- class: 8
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.40
+|   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.27
+|   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.00
+|   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.36
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.89
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.62
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.89
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 <= 0.30
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 >  0.30
+|   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |--- contacted_care_last30d >  0.36
+|   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.00
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.66
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.58
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.11
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.55
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.55
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 8
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.11
+|   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.58
+|   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.66
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.56
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 <= 0.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_0 >  0.28
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.56
+|   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |--- EXPECTED_CLV_PS >  0.68
+|   |   |   |   |   |--- class: 6
+|   |   |   |--- L1_CLUST_5 >  0.59
+|   |   |   |   |--- EXPECTED_CLV_PS <= 0.45
+|   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.02
+|   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.31
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.38
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.72
+|   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.72
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.38
+|   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.42
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.21
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.26
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.21
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.45
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.42
+|   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.31
+|   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.40
+|   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.40
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.02
+|   |   |   |   |   |   |--- class: 7
+|   |   |   |   |--- EXPECTED_CLV_PS >  0.45
+|   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.75
+|   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.88
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.03
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.12
+|   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.12
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.62
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.46
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.46
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.62
+|   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.03
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.18
+|   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.18
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.88
+|   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.79
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.79
+|   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.75
+|   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.65
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.49
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.48
+|   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.48
+|   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.49
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.03
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.84
+|   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.84
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.49
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.49
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.03
+|   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.65
+|   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.60
+|   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.60
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.75
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.97
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.97
+|   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.75
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |--- L1_CLUST_6 >  0.86
+|   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.43
+|   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.44
+|   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.27
+|   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.81
+|   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.90
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.85
+|   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.85
+|   |   |   |   |   |   |   |   |   |--- class: 12
+|   |   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.90
+|   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.81
+|   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.27
+|   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.59
+|   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.59
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.49
+|   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.83
+|   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.15
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.75
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.75
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.15
+|   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.83
+|   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.49
+|   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.44
+|   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.73
+|   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.73
+|   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.97
+|   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.97
+|   |   |   |   |   |   |   |--- class: 11
+|   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.43
+|   |   |   |   |--- contacted_care_last30d <= 0.51
+|   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.62
+|   |   |   |   |   |   |--- PROMO_GROUPED_Deflation <= 0.77
+|   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.89
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.28
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 12
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.28
+|   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.28
+|   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.89
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.43
+|   |   |   |   |   |   |   |   |   |--- class: 12
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.43
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 12
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |--- PROMO_GROUPED_Deflation >  0.77
+|   |   |   |   |   |   |   |--- class: 12
+|   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.62
+|   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.81
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.55
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.73
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.51
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.51
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.51
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.51
+|   |   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.73
+|   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.55
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.63
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.52
+|   |   |   |   |   |   |   |   |   |   |--- class: 12
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.52
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.58
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.63
+|   |   |   |   |   |   |   |   |   |--- class: 12
+|   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.81
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.28
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.22
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.64
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 7
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.64
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.22
+|   |   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.28
+|   |   |   |   |   |   |   |   |--- class: 11
+|   |   |   |   |--- contacted_care_last30d >  0.51
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.23
+|   |   |   |   |   |   |--- class: 11
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.23
+|   |   |   |   |   |   |--- class: 7
+|   |--- PORTIN_ISSUE_DESC_NonPortin >  0.49
+|   |   |--- L1_CLUST_5 <= 0.35
+|   |   |   |--- PROMO_GROUPED_Deflation <= 0.99
+|   |   |   |   |--- L1_CLUST_4 <= 0.64
+|   |   |   |   |   |--- L1_CLUST_0 <= 0.69
+|   |   |   |   |   |   |--- L1_CLUST_6 <= 0.98
+|   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.15
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.29
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_3 <= 0.41
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- L1_CLUST_3 >  0.41
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.25
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.29
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.28
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.44
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.44
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.28
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.15
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.19
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.37
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.37
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.19
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.42
+|   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.42
+|   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |--- L1_CLUST_6 >  0.98
+|   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.64
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.81
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.25
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.83
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.25
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- contacted_care_last30d >  0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.81
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.77
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.77
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.79
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.79
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.64
+|   |   |   |   |   |   |   |   |--- class: 12
+|   |   |   |   |   |--- L1_CLUST_0 >  0.69
+|   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.07
+|   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.19
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.36
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.95
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.95
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.73
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.73
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.36
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.47
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.19
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.43
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.45
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.43
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.45
+|   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.43
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.43
+|   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.43
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.39
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.07
+|   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.57
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.70
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.59
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.59
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.76
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.70
+|   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.57
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.83
+|   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.83
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.39
+|   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.39
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.49
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.49
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- L1_CLUST_4 >  0.64
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.18
+|   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.44
+|   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.48
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.87
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.87
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.46
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.67
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.67
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.46
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.48
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.22
+|   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.22
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.44
+|   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.18
+|   |   |   |   |   |   |--- class: 6
+|   |   |   |--- PROMO_GROUPED_Deflation >  0.99
+|   |   |   |   |--- L1_CLUST_0 <= 0.10
+|   |   |   |   |   |--- L1_CLUST_4 <= 0.49
+|   |   |   |   |   |   |--- L1_CLUST_6 <= 0.28
+|   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |--- L1_CLUST_6 >  0.28
+|   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.99
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.70
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.70
+|   |   |   |   |   |   |   |   |   |--- class: 12
+|   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.99
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- L1_CLUST_4 >  0.49
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- L1_CLUST_0 >  0.10
+|   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.54
+|   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.96
+|   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.96
+|   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |--- EXPECTED_CLV_PS >  0.54
+|   |   |   |   |   |   |--- class: 6
+|   |   |--- L1_CLUST_5 >  0.35
+|   |   |   |--- PROMO_GROUPED_Deflation <= 0.38
+|   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.57
+|   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.89
+|   |   |   |   |   |   |--- contacted_care_last30d <= 0.27
+|   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.49
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.10
+|   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.95
+|   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.95
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.10
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.34
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.34
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.49
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.29
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.15
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.15
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.98
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.29
+|   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |--- contacted_care_last30d >  0.27
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.50
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED <= 0.77
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.47
+|   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.47
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.55
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.55
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- FAILED_PAYMENT_GROUPED >  0.77
+|   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.50
+|   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.89
+|   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG <= 0.90
+|   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.53
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.51
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.91
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.46
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.46
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.91
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.51
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.60
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.60
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.53
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.65
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.63
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.52
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.52
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.63
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.18
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.65
+|   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |--- MEMBER_OF_ACTIVE_FAMILY_FLAG >  0.90
+|   |   |   |   |   |   |   |--- contacted_care_last30d <= 0.02
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.33
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.45
+|   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.45
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.33
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |--- contacted_care_last30d >  0.02
+|   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.57
+|   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG <= 0.71
+|   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.62
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG <= 0.67
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo <= 0.74
+|   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |--- PROMO_GROUPED_No Promo >  0.74
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- UPGRADE_DOWNGRADE_DATA_FLAG >  0.67
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.83
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.83
+|   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.62
+|   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |--- EVER_LOGGED_INTO_APP_FLAG >  0.71
+|   |   |   |   |   |   |--- class: 6
+|   |   |   |--- PROMO_GROUPED_Deflation >  0.38
+|   |   |   |   |--- EXPECTED_CLV_PS <= 0.36
+|   |   |   |   |   |--- class: 6
+|   |   |   |   |--- EXPECTED_CLV_PS >  0.36
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG <= 0.78
+|   |   |   |   |   |   |--- SUB_ESIM_FLAG <= 0.36
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped <= 0.70
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.65
+|   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.65
+|   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |--- PLAN_CYCLE_NUM_grouped >  0.70
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.58
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.31
+|   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.31
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.99
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.58
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.99
+|   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |--- SUB_ESIM_FLAG >  0.36
+|   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |--- UPGRADE_DOWNGRADE_DURATION_FLAG >  0.78
+|   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS <= 0.60
+|   |   |   |   |   |   |   |--- LTE_BAND_71 <= 0.80
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.51
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.47
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG <= 0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |   |   |--- SERVICE_ISSUE_NOTE_FLAG >  0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.47
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS <= 0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.48
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |   |--- EXPECTED_CLV_PS >  0.51
+|   |   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |--- LTE_BAND_71 >  0.80
+|   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |--- GSMA_OPERATING_SYSTEM_grouped_iOS >  0.60
+|   |   |   |   |   |   |   |--- class: 6
